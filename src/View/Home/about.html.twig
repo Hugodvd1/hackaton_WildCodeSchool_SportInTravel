@@ -1,0 +1,77 @@
+{% extends 'layout.html.twig' %}
+
+{% block stylesheet %}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+{% endblock %}
+
+{% block content %}
+	<div class="firstdivabout container text-center pt-5">
+		<h2 class="thin">This site has been designed to facilitate access to sportsmen and women who are looking for facilities near them !
+		</h2>
+	</div>
+	<!-- /Intro-->
+
+	<!-- Highlights - jumbotron -->
+	<div class="jumbotron top-space">
+		<div class="container">
+
+			<h3 class="text-center thin">| Our Team |</h3>
+
+			<div class="row">
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption">
+						<h4>
+							<i class="material-symbols-outlined">sports_tennis</i>Alex</h4>
+					</div>
+					<div class="h-body text-center">
+						<p>I don't have the strongest service but I will repay you through this site ;)</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption">
+						<h4>
+							<i class="fa-solid fa-person-running"></i>Florent</h4>
+					</div>
+					<div class="h-body text-center">
+						<p>
+							In addition to solving Codewars, he jogs occasionally!
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption">
+						<h4>
+							<i class="fa-solid fa-horse"></i>
+						</i>Marine</h4>
+				</div>
+				<div class="h-body text-center">
+					<p>Passionate about riding since my youngest age, until unicorns exist I use horses...</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 highlight">
+				<div class="h-caption">
+					<h4>
+						<i class="fa-solid fa-broom-ball"></i>Hugo</h4>
+					<div class="h-body text-center">
+						<p>
+							Fascinated by the saga since childhood, he decided to launch his career in Quidditch!
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- /row  -->
+
+		</div>
+	</div>
+	<!-- Redirection to search -->
+
+	<div class="container">
+		<div class="row mt-5">
+			<h1 class="searchinabout mt-5 text-center">SPORT IN YOUR TRAVEL</h1>
+			<p class="mt-3 text-center">
+				<a href="/search" class="buttonabout btn btn-action mt-2" role="button">Find your sport</a>
+				<a href="/aroundme" class="buttonabout btn btn-action mt-2" role=" button">Find around you</a>
+			</p>
+		</div>
+	</div>
+{% endblock %}
